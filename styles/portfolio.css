@@ -33,6 +33,9 @@
   font-size: 18px;
   color: #757575;
 }
+.text-center {
+  text-align: center;
+}
 
 /* header */
 .header {
@@ -91,6 +94,10 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section {
+  margin-top: 125px;
+  margin-bottom: 125px;
+}
 /* about styles */
 .about {
   border-radius: 10px;
@@ -104,4 +111,15 @@ main {
 }
 .item-description {
   font-weight: 600;
+}
+
+/* skill sections styles */
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+  box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
 }
